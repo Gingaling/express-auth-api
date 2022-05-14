@@ -5,14 +5,14 @@ const mongoose = require('../db/connection');
 // the value is the type of data it will be
 // https://mongoosejs.com/docs/schematypes.html
 const BookSchema = new mongoose.Schema(
-  {
-    title: String,
-    author: String,
-    description: String,
-  },
-  {
-    timestamps: true,
-  }
+	{
+		title: String,
+		author: String,
+		description: String
+	},
+	{
+		timestamps: true
+	}
 );
 
 // Create a model using the schema, and attaches it to our mongoose instance.

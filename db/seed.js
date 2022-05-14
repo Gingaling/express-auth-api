@@ -1,4 +1,4 @@
-const mongoose = require('/connections.js');
+const mongoose = require('./connection.js');
 
 // Require the Book model
 const Book = require('../models/Book');
